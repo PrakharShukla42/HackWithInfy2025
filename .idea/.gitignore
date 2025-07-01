@@ -1,8 +1,13 @@
 # Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+/shelf/                         # Stores shelved changes; safe to ignore
+/workspace.xml                 # Contains personal workspace settings
+
+# Editor-based HTTP Client
+requests/httpRequests/        # Stores HTTP client requests made from the editor
+
 # Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+/dataSources/                 # Directory for database tool configurations
+/dataSources.local.xml        # Local-only data source settings
+
+/.idea/                       # Project-specific IDE settings folder
+/out/
