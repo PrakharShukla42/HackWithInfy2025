@@ -17,8 +17,8 @@ public class MinRefuelingStops {
 
         int[][] stations = new int[n][2];
         for (int i = 0; i < n; i++) {
-            stations[i][0] = sc.nextInt(); // station distance
-            stations[i][1] = sc.nextInt(); // station fuel
+            stations[i][0] = sc.nextInt(); 
+            stations[i][1] = sc.nextInt(); 
         }
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
